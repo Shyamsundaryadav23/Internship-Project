@@ -1,0 +1,29 @@
+# Auto normalize line endings
+# Auto normalize line endings
+* text=auto
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+
+
+# Force LF (Unix-style) for scripts, configs, and JS/TS files
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+
+# Treat images and binaries as binary (no conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# Force CRLF for Windows batch files
+*.bat text eol=crlf
